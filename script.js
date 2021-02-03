@@ -1,4 +1,4 @@
-// ----- Adding plus button event handler for phone section ------
+// ----- Adding minus button event handler for phone section ------
 document.getElementById('minus-btn-phone').addEventListener('click', function () {
     var numberOfPhone = parseFloat(document.getElementById('piece-phone').value);
     numberOfPhone -= 1;
